@@ -20,5 +20,7 @@ public class EmployeeApp {
         ShiftSupervisor supervisor = new ShiftSupervisor();
         supervisor.setSalary(1400);
 
+        System.out.println("Details: " + supervisor.getReportDetails());
+
     }
 }

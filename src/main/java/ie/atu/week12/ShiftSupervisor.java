@@ -14,4 +14,6 @@ public class ShiftSupervisor extends ShiftWorker {
                 '}';
     }
 
+    public void setSalary(int i) {
+    }
 }

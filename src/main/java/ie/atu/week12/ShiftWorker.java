@@ -9,6 +9,12 @@ public class ShiftWorker extends Employee {
     public ShiftWorker() {
     }
 
+    public ShiftWorker(int shiftNum, int payrollNum, double hourly_pay_rate) {
+        this.shiftNum = shiftNum;
+        this.payrollNum = payrollNum;
+        this.hourly_pay_rate = hourly_pay_rate;
+    }
+
     public int getShiftNum() {
         return shiftNum;
     }
