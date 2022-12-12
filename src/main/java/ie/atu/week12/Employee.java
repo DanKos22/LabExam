@@ -29,8 +29,11 @@ public class Employee {
         this.idNum = idNum;
     }
 
-    void getReportDetails(String name, String idNum) {
 
+    public String getReportDetails() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", idNum='" + idNum + '\'' +
+                '}';
     }
-
 }
