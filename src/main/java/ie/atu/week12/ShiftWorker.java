@@ -33,5 +33,14 @@ public class ShiftWorker extends Employee {
         this.hourly_pay_rate = hourly_pay_rate;
     }
 
-    void getReportDetails(String name, int payrollNum, int shiftNum, double hourly_pay_rate)
+    @Override
+    public String getReportDetails() {
+        return "ShiftWorker{" + super.getReportDetails() +
+                "shiftNum=" + shiftNum +
+                ", payrollNum=" + payrollNum +
+                ", hourly_pay_rate=" + hourly_pay_rate +
+                '}';
+    }
+
+
 }
